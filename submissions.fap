@@ -1,0 +1,528 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>User control panel -- Fur Affinity [dot] net</title>
+<link rel="icon" href="/themes/classic/img/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/themes/classic/img/favicon.ico" type="image/x-icon"/>
+<meta name="description" content="Fur Affinity, the internet's largest online furry art community.">
+<meta name="keywords" content="fur, furry, furry fandom, furry comics, furry art, fursuits, anthro, anthropomorphic, anthropomorphism">
+<meta name="copyright" content="Ferrox Art LLC">
+<meta name="author" content="Ferrox Art LLC">
+<meta name="Distribution" content="Global">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=EDGE"/>
+<meta name="ero_verify" content="1d42658d34f4c71f70af90b130f37c66"/>
+<meta property="og:image" content="/themes/classic/img/banners/fa_logo.png"/>
+<link type="text/css" rel="stylesheet" href="/themes/classic/css/dark.css?u=2016051300"/>
+<!--[if lte IE 7]>
+    <link type="text/css" rel="stylesheet" href="/themes/classic/css/dark_ie.css?u=2016051300" />
+  <![endif]-->
+<script type="text/javascript">
+  var STATIC_PATH='/themes/classic';
+        var Queue=function(){var q=[];return{add:function(f){q.push(f)},process:function(f){while((f=q.shift()))f();}};}();
+        var LazyLoad=function(){var d=document,pending=null,queue=[],ua;function getUserAgent(){if(ua){return}var a=navigator.userAgent,m;ua={gecko:0,ie:0,webkit:0};m=a.match(/AppleWebKit\/(\S*)/);if(m&&m[1]){ua.webkit=parseFloat(m[1])}else{m=a.match(/MSIE\s([^;]*)/);if(m&&m[1]){ua.ie=parseFloat(m[1])}else if((/Gecko\/(\S*)/).test(a)){ua.gecko=1;m=a.match(/rv:([^\s\)]*)/);if(m&&m[1]){ua.gecko=parseFloat(m[1])}}}}return{load:function(a,b,c,e){var f=d.getElementsByTagName('head')[0],i,script;if(a){a=a.constructor===Array?a:[a];for(i=0;i<a.length;++i){queue.push({'url':a[i],'callback':i===a.length-1?b:null,'obj':c,'scope':e})}}if(pending||!(pending=queue.shift())){return}getUserAgent();script=d.createElement('script');if(ua.ie){script.onreadystatechange=function(){if(this.readyState==='loaded'||this.readyState==='complete'){LazyLoad.requestComplete()}}}else{script.onload=LazyLoad.requestComplete;script.onerror=LazyLoad.requestComplete}script.src=pending.url;f.appendChild(script)},requestComplete:function(){if(pending.callback){if(pending.obj){if(pending.scope){pending.callback.call(pending.obj)}else{pending.callback.call(window,pending.obj)}}else{pending.callback.call()}}pending=null;if(queue.length){LazyLoad.load()}}}}();
+  </script>
+</head>
+<body>
+<a name="top"></a>
+<div>
+ 
+ 
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="block-menu-top">
+<tr>
+<td class="header_bkg">
+<ul class="dropdown dropdown-horizontal">
+<li><a href="/browse/">Browse</a></li>
+<li><a href="/search/">Search</a></li>
+<li><a href="/submit/">Submit</a></li>
+<li><a href="#" class="dir">&#9660; Community</a>
+<ul>
+<li><a href="http://forums.furaffinity.net/">Fur Affinity Forums</a></li>
+<li><a href="http://twitter.com/furaffinity">Twitter</a></li>
+<li><a href="http://www.facebook.com/furaffinity">Facebook</a></li>
+<li><hr></li>
+<li><a href="/advertising">Advertising</a>
+</ul>
+</li>
+<li><a href="#" class="dir">&#9660; Support</a>
+<ul>
+<li><a href="/journals/fender/">News and Updates</a></li>
+<li><a href="/help">Knowledgebase</a></li>
+<li><hr></li>
+<li><a href="/staff/">Site Staff</a></li>
+<li><a href="/tos">Terms of Service</a></li>
+<li><a href="/coc">Code of Conduct</a></li>
+<li><a href="/aup">Acceptable Upload Policy</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td class="header_bkg">
+<ul class="dropdown dropdown-horizontal dropdown-left">
+<li><a id="my-username" href="/user/polarisbeaver/">~polarisbeaver</a></li>
+<li><a href="#" class="dir">&#9660; My FA</a>
+<ul>
+<li><a href="/msg/pms/">Notes</a></li>
+<li><a href="/controls/journal/">Journals</a></li>
+<li><hr></li>
+<li><a href="#">&#9660; Account Management</a>
+<ul>
+<li><a href="/controls/settings/">Account Settings</a></li>
+<li><a href="/controls/site-settings/">Site Settings</a></li>
+<li><a href="/controls/user-settings/">User Settings</a></li>
+<li><a href="/controls/profile/">Profile Info</a></li>
+<li><a href="/controls/contacts/">Contacts / Social Media</a></li>
+<li><a href="/controls/avatar/">Upload / Change Avatar</a></li>
+</ul>
+</li>
+<li><a href="#">&#9660; Page Management</a>
+<ul>
+<li><a href="/controls/journal/">Journals</a></li>
+<li><a href="/controls/submissions/">Submissions</a></li>
+<li><a href="/controls/folders/submissions/">Gallery Folders</a></li>
+<li><a href="/commissions/polarisbeaver/">Commission Info</a></li>
+<li><a href="/controls/shouts/">Page Shouts</a></li>
+<li><a href="/controls/favorites/">Favorites</a></li>
+<li><a href="/controls/buddylist/">Watch List</a></li>
+</ul>
+</li>
+<li><a href="#">&#9660; Site Security</a>
+<ul>
+<li><a href="/controls/sessions/logins/">Active Sessions</a></li>
+<li><a href="/controls/sessions/logs/">Activity Log</a></li>
+<li><a href="/controls/sessions/labels/">Browser Labels</a></li>
+</ul>
+</li>
+<li><a href="/controls/troubletickets/">Report a Problem</a></li>
+<li></li>
+</ul>
+</li>
+<li class="noblock">
+<a title="Submission Notifications" href="/msg/submissions/">43S</a>,&nbsp;<a title="Comment Notifications" href="/msg/others/#comments">4C</a>,&nbsp;<a title="Journal Notifications" href="/msg/others/#journals">44J</a>,&nbsp;<a title="Favorite Notifications" href="/msg/others/#favorites">2F</a> </li>
+<li class="noblock sfw-toggle" id="sfw-toggle"><a href="?" title="Toggle to hide Mature and Adult submissions. Effective starting next page load.">SFW</a></li>
+<li class="noblock"><a id="logout-link" href="/logout/">Log Out</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+ 
+ 
+ 
+<div class="block-banners clearfix">
+<a href="/" id="fa_header"></a>
+<div class="ads">
+<div class="in">
+<div id="ad-2" class="ad hidden first"></div>
+<div id="ad-4" class="ad hidden"></div>
+</div>
+</div>
+</div>
+ 
+<center><h2>Fur Affinity is in read-only mode.</h2></center> <table cellpadding="3" cellspacing="1" border="0" width="95%" class="maintable" id="admin_notice_do_not_adblock">
+<tr>
+<td valign="top" class="cat">
+<table cellpadding="2" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="32" align="center" valign="top">
+<img alt="Error!" src="/themes/classic/img/icons/Error.png"/>
+</td>
+<td align="left" valign="top">
+<h4>Administrator notice:</h4>
+We have temporarily put the site into Read Only mode while we work on implementing additional security measures. We have just learned the attackers have access to personal user data, such as encrypted passwords and email addresses.<br><br>
+We will be making improvements to the login page and password reset tool to increase security on those pages. Once the changes are complete, we will provide instructions on how to reset your password. We apologize for the inconvenience. </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div id="news" class="date-1463787568">
+<img class="dismiss" src="/themes/classic/img/close_panel.png" title="Dismiss"/>
+<a href="/journal/7586466">Read Only - Making Security Improvements</a>
+</div>
+<div id="ad-extra-flat" class="p10" style="text-align: center; min-height: 90px"></div>
+<br/>
+<div style="width:98%; margin: 0 auto;">
+<div id="messagecenter-submissions">
+<h1>New Submissions</h1>
+<form name="messages-form" id="messages-form" method="post" action="/msg/submissions/new@72/">
+<div class="navigation">
+<a class="oldest " href="/msg/submissions/old@72/">Oldest</a>
+<a class="newest active" href="/msg/submissions/new@72/">Newest</a>
+<input type="button" class="button" id="toggle-descriptions" value="Toggle Descriptions"/>
+</div>
+<div class="actions">
+<input class="button remove-nuke" type="submit" name="messagecenter-action" value="Nuke all Submissions"/>
+<input class="button remove-checked" type="submit" name="messagecenter-action" value="Remove checked"/>
+<input class="button invert-selection hidden" type="button" name="invert-selection" value="Invert selection"/>
+<input class="button check-uncheck hidden" type="button" name="check-uncheck" value="Check/Uncheck all"/>
+</div>
+ 
+ 
+<h3 class="date-divider">Yesterday, 20 May 2016</h3>
+<center class="flow messagecenter with-checkboxes-titles-usernames thumb-size-200">
+<b id="sid_20043447" class="r-general t-image"><u><s><a href="/view/20043447/"><img alt="" src="//t.facdn.net/20043447@200-1463787519.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20043447"></small><span title="graphic design project">graphic design project</span><small><a href="/user/coffeehousedog/">coffeehousedog</a></small></b>
+<b id="sid_20041890" class="r-general t-image"><u><s><a href="/view/20041890/"><img alt="" src="//t.facdn.net/20041890@200-1463780274.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20041890"></small><span title="This meme">This meme</span><small><a href="/user/konnestra/">Konnestra</a></small></b>
+<b id="sid_20041207" class="r-general t-image"><u><s><a href="/view/20041207/"><img alt="" src="//t.facdn.net/20041207@200-1463777170.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20041207"></small><span title="Zadia and Matilda">Zadia and Matilda</span><small><a href="/user/shadowduck/">shadowduck</a></small></b>
+<b id="sid_20040031" class="r-general t-image"><u><s><a href="/view/20040031/"><img alt="" src="//t.facdn.net/20040031@200-1463780230.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20040031"></small><span title="bull icon 2">bull icon 2</span><small><a href="/user/coffeehousedog/">coffeehousedog</a></small></b>
+<b id="sid_20039783" class="r-general t-image"><u><s><a href="/view/20039783/"><img alt="" src="//t.facdn.net/20039783@200-1463779656.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20039783"></small><span title="foxicon2">foxicon2</span><small><a href="/user/coffeehousedog/">coffeehousedog</a></small></b>
+<b id="sid_20039060" class="r-general t-image"><u><s><a href="/view/20039060/"><img alt="" src="//t.facdn.net/20039060@200-1463768226.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20039060"></small><span title="Seize the life">Seize the life</span><small><a href="/user/pacopanda/">pacopanda</a></small></b>
+<b id="sid_20038409" class="r-general t-image"><u><s><a href="/view/20038409/"><img alt="" src="//t.facdn.net/20038409@200-1463765197.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20038409"></small><span title="Art vs artist meme">Art vs artist meme</span><small><a href="/user/henrieke/">Henrieke</a></small></b>
+<b id="sid_20037585" class="r-general t-image"><u><s><a href="/view/20037585/"><img alt="" src="//t.facdn.net/20037585@200-1463760857.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20037585"></small><span title="Lane Stroll by Grau">Lane Stroll by Grau</span><small><a href="/user/foxosexual/">Foxosexual</a></small></b>
+<b id="sid_20037112" class="r-adult t-image"><u><s><a href="/view/20037112/"><img alt="" src="//t.facdn.net/20037112@200-1463757853.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20037112"></small><span title="Once Upon a Convention by Twinkle-Sez">Once Upon a Convention by Twinkle-Sez</span><small><a href="/user/foxosexual/">Foxosexual</a></small></b>
+<b id="sid_20036710" class="r-adult t-image"><u><s><a href="/view/20036710/"><img alt="" src="//t.facdn.net/20036710@200-1463755367.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20036710"></small><span title="Frisky Foxes Fucking by JustineFox">Frisky Foxes Fucking by JustineFox</span><small><a href="/user/foxosexual/">Foxosexual</a></small></b>
+<b id="sid_20035326" class="r-general t-image"><u><s><a href="/view/20035326/"><img alt="" src="//t.facdn.net/20035326@200-1463741824.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20035326"></small><span title="chub wrestler ">chub wrestler </span><small><a href="/user/merfiller/">Merfiller</a></small></b>
+<b id="sid_20034724" class="r-general t-image"><u><s><a href="/view/20034724/"><img alt="" src="//t.facdn.net/20034724@200-1463733871.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20034724"></small><span title="Art vs Artist MEME-A-ROONY">Art vs Artist MEME-A-ROONY</span><small><a href="/user/remywolf/">RemyWolf</a></small></b>
+<b id="sid_20033051" class="r-adult t-image"><u><s><a href="/view/20033051/"><img alt="" src="//t.facdn.net/20033051@200-1463720112.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20033051"></small><span title="Pumpkin King Part 2">Pumpkin King Part 2</span><small><a href="/user/hornetv2/">HornetV2</a></small></b>
+</center>
+<h3 class="date-divider">2 days ago, 19 May 2016</h3>
+<center class="flow messagecenter with-checkboxes-titles-usernames thumb-size-200">
+<b id="sid_20032409" class="r-general t-image"><u><s><a href="/view/20032409/"><img alt="" src="//t.facdn.net/20032409@200-1463716556.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20032409"></small><span title="Birthday Pupper!">Birthday Pupper!</span><small><a href="/user/remywolf/">RemyWolf</a></small></b>
+<b id="sid_20030814" class="r-general t-image"><u><s><a href="/view/20030814/"><img alt="" src="//t.facdn.net/20030814@200-1463710110.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20030814"></small><span title="Morning Commute">Morning Commute</span><small><a href="/user/fxscreamer/">fxscreamer</a></small></b>
+<b id="sid_20030665" class="r-general t-image"><u><s><a href="/view/20030665/"><img alt="" src="//t.facdn.net/20030665@200-1463709682.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20030665"></small><span title="Lane Headshot by Mandee">Lane Headshot by Mandee</span><small><a href="/user/foxosexual/">Foxosexual</a></small></b>
+<b id="sid_20030496" class="r-general t-image"><u><s><a href="/view/20030496/"><img alt="" src="//t.facdn.net/20030496@200-1463709098.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20030496"></small><span title="FlutterDragon">FlutterDragon</span><small><a href="/user/yuchicoyote/">YuchiCoyote</a></small></b>
+<b id="sid_20029298" class="r-general t-image"><u><s><a href="/view/20029298/"><img alt="" src="//t.facdn.net/20029298@200-1463704964.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20029298"></small><span title="Mitsu Paw Splay">Mitsu Paw Splay</span><small><a href="/user/remywolf/">RemyWolf</a></small></b>
+<b id="sid_20026851" class="r-general t-image"><u><s><a href="/view/20026851/"><img alt="" src="//t.facdn.net/20026851@200-1463696742.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20026851"></small><span title="Door hanger (RIP)">Door hanger (RIP)</span><small><a href="/user/pacopanda/">pacopanda</a></small></b>
+<b id="sid_20021898" class="r-general t-image"><u><s><a href="/view/20021898/"><img alt="" src="//t.facdn.net/20021898@200-1463682299.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20021898"></small><span title="Commission (Avatar) - Cooper">Commission (Avatar) - Cooper</span><small><a href="/user/ango76/">ANGO76</a></small></b>
+<b id="sid_20021872" class="r-general t-image"><u><s><a href="/view/20021872/"><img alt="" src="//t.facdn.net/20021872@200-1463682214.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20021872"></small><span title="The Apple Flute">The Apple Flute</span><small><a href="/user/ango76/">ANGO76</a></small></b>
+<b id="sid_20021788" class="r-general t-image"><u><s><a href="/view/20021788/"><img alt="" src="//t.facdn.net/20021788@200-1463682030.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20021788"></small><span title="Kotya-ra">Kotya-ra</span><small><a href="/user/ango76/">ANGO76</a></small></b>
+<b id="sid_20021501" class="r-general t-image"><u><s><a href="/view/20021501/"><img alt="" src="//t.facdn.net/20021501@200-1463681350.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20021501"></small><span title="I Will Kill You With Color">I Will Kill You With Color</span><small><a href="/user/johis/">Johis</a></small></b>
+<b id="sid_20019324" class="r-general t-image"><u><s><a href="/view/20019324/"><img alt="" src="//t.facdn.net/20019324@200-1463675090.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20019324"></small><span title="The Mercenaries">The Mercenaries</span><small><a href="/user/johis/">Johis</a></small></b>
+<b id="sid_20017902" class="r-general t-image"><u><s><a href="/view/20017902/"><img alt="" src="//t.facdn.net/20017902@200-1463670937.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20017902"></small><span title="Patreon!">Patreon!</span><small><a href="/user/greevixor/">Greevixor</a></small></b>
+<b id="sid_20017820" class="r-general t-image"><u><s><a href="/view/20017820/"><img alt="" src="//t.facdn.net/20017820@200-1463670760.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20017820"></small><span title="this heart needs a home">this heart needs a home</span><small><a href="/user/theroguez/">TheRoguez</a></small></b>
+<b id="sid_20017087" class="r-general t-image"><u><s><a href="/view/20017087/"><img alt="" src="//t.facdn.net/20017087@200-1463668800.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20017087"></small><span title="Spring 2016 Painted Badges">Spring 2016 Painted Badges</span><small><a href="/user/goldendruid/">GoldenDruid</a></small></b>
+<b id="sid_20016376" class="r-general t-image"><u><s><a href="/view/20016376/"><img alt="" src="//t.facdn.net/20016376@200-1463666681.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20016376"></small><span title="Spring">Spring</span><small><a href="/user/greevixor/">Greevixor</a></small></b>
+<b id="sid_20015548" class="r-general t-image"><u><s><a href="/view/20015548/"><img alt="" src="//t.facdn.net/20015548@200-1463663930.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20015548"></small><span title="Find us on CFZ!">Find us on CFZ!</span><small><a href="/user/johis/">Johis</a></small></b>
+<b id="sid_20014299" class="r-general t-image"><u><s><a href="/view/20014299/"><img alt="" src="//t.facdn.net/20014299@200-1463659308.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20014299"></small><span title="Mischief Maker">Mischief Maker</span><small><a href="/user/secoh2000/">secoh2000</a></small></b>
+<b id="sid_20014273" class="r-general t-image"><u><s><a href="/view/20014273/"><img alt="" src="//t.facdn.net/20014273@200-1463659208.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20014273"></small><span title="Watch where you're going!">Watch where you're going!</span><small><a href="/user/secoh2000/">secoh2000</a></small></b>
+<b id="sid_20014250" class="r-general t-image"><u><s><a href="/view/20014250/"><img alt="" src="//t.facdn.net/20014250@200-1463659113.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20014250"></small><span title="Push Through!">Push Through!</span><small><a href="/user/secoh2000/">secoh2000</a></small></b>
+<b id="sid_20011151" class="r-general t-image"><u><s><a href="/view/20011151/"><img alt="" src="//t.facdn.net/20011151@200-1463644434.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20011151"></small><span title="Vampeaver">Vampeaver</span><small><a href="/user/omadaun/">Omadaun</a></small></b>
+<b id="sid_20010897" class="r-general t-image"><u><s><a href="/view/20010897/"><img alt="" src="//t.facdn.net/20010897@200-1463643355.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20010897"></small><span title="Furlandia Offical Badges">Furlandia Offical Badges</span><small><a href="/user/omadaun/">Omadaun</a></small></b>
+<b id="sid_20010892" class="r-general t-image"><u><s><a href="/view/20010892/"><img alt="" src="//t.facdn.net/20010892@200-1463643323.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20010892"></small><span title="Commission: Eyy Yoo!">Commission: Eyy Yoo!</span><small><a href="/user/sharpdressedreptile/">SharpDressedReptile</a></small></b>
+<b id="sid_20010675" class="r-general t-image"><u><s><a href="/view/20010675/"><img alt="" src="//t.facdn.net/20010675@200-1463642402.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20010675"></small><span title="Omadaun Furlandia 2016 Conbadge">Omadaun Furlandia 2016 Conbadge</span><small><a href="/user/omadaun/">Omadaun</a></small></b>
+<b id="sid_20010638" class="r-general t-image"><u><s><a href="/view/20010638/"><img alt="" src="//t.facdn.net/20010638@200-1463642229.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20010638"></small><span title="Polaris Furlandia 2016 Conbadge">Polaris Furlandia 2016 Conbadge</span><small><a href="/user/omadaun/">Omadaun</a></small></b>
+<b id="sid_20010518" class="r-general t-image"><u><s><a href="/view/20010518/"><img alt="" src="//t.facdn.net/20010518@200-1463641739.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20010518"></small><span title="The Force Awakens">The Force Awakens</span><small><a href="/user/omadaun/">Omadaun</a></small></b>
+<b id="sid_20008413" class="r-mature t-image"><u><s><a href="/view/20008413/"><img alt="" src="//t.facdn.net/20008413@200-1463635214.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20008413"></small><span title="Cats and Yarn">Cats and Yarn</span><small><a href="/user/kejehara/">Kejehara</a></small></b>
+</center>
+<h3 class="date-divider">3 days ago, 18 May 2016</h3>
+<center class="flow messagecenter with-checkboxes-titles-usernames thumb-size-200">
+<b id="sid_20005853" class="r-general t-image"><u><s><a href="/view/20005853/"><img alt="" src="//t.facdn.net/20005853@200-1463628067.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20005853"></small><span title="Walking Paw in Paw">Walking Paw in Paw</span><small><a href="/user/remywolf/">RemyWolf</a></small></b>
+<b id="sid_20003643" class="r-general t-image"><u><s><a href="/view/20003643/"><img alt="" src="//t.facdn.net/20003643@200-1463624440.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20003643"></small><span title="Bear wrestler ( re post )">Bear wrestler ( re post )</span><small><a href="/user/merfiller/">Merfiller</a></small></b>
+<b id="sid_20001860" class="r-general t-image"><u><s><a href="/view/20001860/"><img alt="" src="//t.facdn.net/20001860@200-1463622001.jpg"/><i class="icon" title="Click for description"></i></a></s></u><small><input type="checkbox" name="submissions[]" value="20001860"></small><span title="Help us name him! ">Help us name him! </span><small><a href="/user/yuchicoyote/">YuchiCoyote</a></small></b>
+</center>
+ 
+<div class="actions">
+<input class="button remove-nuke" type="submit" name="messagecenter-action" value="Nuke all Submissions"/>
+<input class="button remove-checked" type="submit" name="messagecenter-action" value="Remove checked"/>
+<input class="button invert-selection hidden" type="button" name="invert-selection" value="Invert selection"/>
+<input class="button check-uncheck hidden" type="button" name="check-uncheck" value="Check/Uncheck all"/>
+</div>
+<div class="navigation">
+<a class="oldest " href="/msg/submissions/old@72/">Oldest</a>
+<a class="newest active" href="/msg/submissions/new@72/">Newest</a>
+</div>
+</form>
+<script type="text/javascript">
+            var descriptions = {"20043447":{"title":"graphic design project","description":"I uploaded this when the site had its outage so resubmitting it. I will be submitting more with updated icons and stuff but figured this one is still good to have. I -do- plan on making a set or two to be sold at Furlandia. Be sure to check my friend :iconserenakitty:'s booth -- that's where they'll be along with a tail or two. \r\n\r\nThey'll be $30. If someone wants to order a set in advance, I'll n .......","username":"coffeehousedog","lower":"coffeehousedog","avatar_mtime":"1432618427"},"20041890":{"title":"This meme","description":"ArtVSartist","username":"Konnestra","lower":"konnestra","avatar_mtime":"1424255659"},"20041207":{"title":"Zadia and Matilda","description":"Commission for :iconduragan:\r\n\r\nZadia and Matilda comparing their giant tummies with one filled with air and one filled with food. Which one makes the best for a bigger tummy? :3c\r\n\r\nCharacters (c) :iconduragan:\r\nArt by :iconshadowduck: 2016","username":"shadowduck","lower":"shadowduck","avatar_mtime":"1461699508"},"20040031":{"title":"bull icon 2","description":"what the title says. :) ","username":"coffeehousedog","lower":"coffeehousedog","avatar_mtime":"1432618427"},"20039783":{"title":"foxicon2","description":"Work is never done. So after I showed my teacher my bottles, I believe he liked the idea\/presentation initially, but he asked if I could &quot;unify&quot; the style of my animals better. He noted the owl was more abstract, where as the fox and bull were more shapes with eyes punched out. I didn't notice that when I did them, but when he pointed it out I saw what he meant. I'm pretty happy with version two o .......","username":"coffeehousedog","lower":"coffeehousedog","avatar_mtime":"1432618427"},"20039060":{"title":"Seize the life","description":"This picture brings back nice memories, but at the same time, it reminds us how we have to enjoy those little moments. Not just to seize the day, but the moments, the life. \r\n\r\nLife is not perfect, it's impossible and a waste of time trying to make it that way.  Accept your past without regret, handle your present with confidence, and face your future without fear.\r\n\r\nEverything turns clearer and  .......","username":"pacopanda","lower":"pacopanda","avatar_mtime":"1454200667"},"20038409":{"title":"Art vs artist meme","description":"Meme that has been going around that I quite enjoy! It'd work better if I actually kept photos of myself on my PC.","username":"Henrieke","lower":"henrieke","avatar_mtime":"1424255659"},"20037585":{"title":"Lane Stroll by Grau","description":"&quot;I can't be everything you want me to be.&quot;\r\n\r\nThis is one of my favourite clean pieces I've ever received. Inspired by Leonardo_stroll.jpg and one of my favourite feel-good songs, &quot;Gone&quot; by JR JR\r\n\r\nArt by the VERY talented :iconGrau:\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=5zCT14meHW0","username":"Foxosexual","lower":"foxosexual","avatar_mtime":"1460204210"},"20037112":{"title":"Once Upon a Convention by Twinkle-Sez","description":"..two friends met up, and one gave the other a breeding like he'd never had before~\r\n\r\nArt by :icontwinkle-sez:\r\n\r\nCJ is :iconwolf019:\r\n\r\nHope you like it, hun. :love:","username":"Foxosexual","lower":"foxosexual","avatar_mtime":"1460204210"},"20036710":{"title":"Frisky Foxes Fucking by JustineFox","description":"So two vulpine friends meet in the forest aaand sex happens! Faxy's lucky he bounced up before the knot or else- whoops! Nevermind, he got some inside him anyway.. :3\r\n\r\nArt by the sweet and friendly :iconJustinefox:\r\n\r\nMy friend Faxy is :iconPillo:","username":"Foxosexual","lower":"foxosexual","avatar_mtime":"1460204210"},"20035326":{"title":"chub wrestler ","description":"anatomy practice ","username":"Merfiller","lower":"merfiller","avatar_mtime":"1457879598"},"20034724":{"title":"Art vs Artist MEME-A-ROONY","description":"Surrounded by some fuzzies I've drawn :3","username":"RemyWolf","lower":"remywolf","avatar_mtime":"1429259494"},"20033051":{"title":"Pumpkin King Part 2","description":"Seems like :iconpyroassassin: got himself more loyal pumpkin slaves. Here he caught :iconaxelwolf04: as he gets the hand of how to turn others into his loyal servants in his quest to conquer the world...\r\n\r\nMore to come soon?\r\n\r\nXD Technically this is a commission from Axel Wolf being turned into pumpkinhood. Finished this before recent Con trip but waited to get it posted after the con. Enjoy!\r\n\r .......","username":"HornetV2","lower":"hornetv2","avatar_mtime":"1424255659"},"20032409":{"title":"Birthday Pupper!","description":"Today is :iconfrisbee:'s birthday!  \r\n\r\n:remywolficon:\r\n:frisbeeicon:\r\n:skroyicon:\r\n\r\n*FULL VIEW FOR CORRECT TRANSPARENCY*\r\n\r\n","username":"RemyWolf","lower":"remywolf","avatar_mtime":"1429259494"},"20030814":{"title":"Morning Commute","description":"I've had the idea of a piece like this using Titus for some time. As always, it strayed a bit from the original idea, but I think I like it more. From a personal achievement, I feel this might be my best rendering and lighting to date so far. The even bigger challenge was drawing Titus in this perspective holding the gesture. Everything is hand drawn, including the background, except for a few tex .......","username":"fxscreamer","lower":"fxscreamer","avatar_mtime":"1460259197"},"20030665":{"title":"Lane Headshot by Mandee","description":"So heeere's a cute &quot;Smiley Symmetrical Headshot&quot; that I got from the lovely :iconMandee:\r\n\r\nCheck her out, she's really nice, easy to work with and a wonderful artist!\r\n\r\nStill to upload more arts lost during the Great Hax of '16 lmao!","username":"Foxosexual","lower":"foxosexual","avatar_mtime":"1460204210"},"20030496":{"title":"FlutterDragon","description":"LOOK AT THAT CUTE @MARSHMALLOWTWIRL &lt;3333333333\r\n\r\nShe's the cutest butterfly dragon mix!","username":"YuchiCoyote","lower":"yuchicoyote","avatar_mtime":"1454529799"},"20029298":{"title":"Mitsu Paw Splay","description":"Commission for :iconmitsumutt: :3","username":"RemyWolf","lower":"remywolf","avatar_mtime":"1429259494"},"20026851":{"title":"Door hanger (RIP)","description":"BLFC 2016 (Biggest Little Furry Convention)\r\n\r\nMany adventures I lived in this convention, to simplify it in a nutshell: the best convention I've gone so far. Sharing the best moments with good friends, whom most of them I met for the first time, and now have become quite special to me.\r\n\r\nThe story of this image that I'm showing.\r\n\r\nI share room with stars, and also very great friends. Yaps :yaps .......","username":"pacopanda","lower":"pacopanda","avatar_mtime":"1454200667"},"20021898":{"title":"Commission (Avatar) - Cooper","description":"For Cooper","username":"ANGO76","lower":"ango76","avatar_mtime":"1448656823"},"20021872":{"title":"The Apple Flute","description":"Art-trade with :iconAkineza:","username":"ANGO76","lower":"ango76","avatar_mtime":"1448656823"},"20021788":{"title":"Kotya-ra","description":"Art-trade with :iconkotya-ra:","username":"ANGO76","lower":"ango76","avatar_mtime":"1448656823"},"20021501":{"title":"I Will Kill You With Color","description":"A commission for :linkTKR: ! So nice to get to paint another rodent and TK always has such cool ideas to illustrate :D \r\nLots of flowy wooshy stuff, sooo much fun to draw!","username":"Johis","lower":"johis","avatar_mtime":"1460153893"},"20019324":{"title":"The Mercenaries","description":"Well all I can say is that for once I'm glad I'm a bit slow at uploading things online heh! So I don't have to reupload lots of things now. But good that we're back!\r\n\r\nThis is a commission for :linkchaosthief:! :D pretty happy with how it came out!","username":"Johis","lower":"johis","avatar_mtime":"1460153893"},"20017902":{"title":"Patreon!","description":"Also resubmitting this, as it was also lost in the site attack. No worries, a balanced mind can overcome any obstacles life may present. B|\r\n\r\nSo yeah, in case you missed it, I am now on Patreon!\r\nIf you like what you've seen so far in my gallery and want to keep seeing more, consider supporting me there! :)\r\nI'm aiming for 2 updates per week in order to make it worthwhile for you!\r\n\r\nYou will fin .......","username":"Greevixor","lower":"greevixor","avatar_mtime":"1461017365"},"20017820":{"title":"this heart needs a home","description":"reupload\r\n\r\nhttps:\/\/www.youtube.com\/watch?v=2g2lDLZ0urw","username":"TheRoguez","lower":"theroguez","avatar_mtime":"1424255659"},"20017087":{"title":"Spring 2016 Painted Badges","description":"All the lovely faces from Furry Weekend Atlanta and a few after.  These are the rest of my painted badge commissions from this spring.  I have a few illustration badges I'll be posting soon too.\r\n\r\nI am so incredibly lucky!  It is no exaggeration to say that I get the best commissioners.  My clients are enthusiastic, kind, level headed, AND have the loveliest sonas for me to paint.  :3\r\n\r\nThank yo .......","username":"GoldenDruid","lower":"goldendruid","avatar_mtime":"1446652208"},"20016376":{"title":"Spring","description":"Well, resubmitting this, as it was lost in the recent site attack. Still, losing one week's worth of content isn't nearly as bad as losing 2 years of data (a... uh... friend of mine... had that happen). Make backups, kids. Learn from my mistakes. :'|\r\nBut on the bright side, now you have a reason to look at it again. Right? :D","username":"Greevixor","lower":"greevixor","avatar_mtime":"1461017365"},"20015548":{"title":"Find us on CFZ!","description":"My fox here made us a little advertisement poster herself, so for anyone going to CFZ - you can find me and :linkberneri: at table number #49 in the dealer's den!\r\nHave a look at what we have for sale or just pop over to say hi 8D\r\n\r\nI'mgettingincreasinglynervousbutnotinabadwayjusteeeeeksoclosenowCAN'TWAIT","username":"Johis","lower":"johis","avatar_mtime":"1460153893"},"20014299":{"title":"Mischief Maker","description":"[re-upload] - Feeling depression gnawing on the outskirts of my mind so a &quot;quick&quot; mischief maker doodle for tonight.","username":"secoh2000","lower":"secoh2000","avatar_mtime":"1424255659"},"20014273":{"title":"Watch where you're going!","description":"[re-upload] - Just a drakeside doodle from skyboxcomic.com \r\n\r\nYes I am having to much fun with that comic.\r\n","username":"secoh2000","lower":"secoh2000","avatar_mtime":"1424255659"},"20014250":{"title":"Push Through!","description":"[re-upload] Will Phoebus make it to the landing?  Sketch of LynxGriffin\u200b character from the skybox -&gt; www.skyboxcomic.com\/ \r\n\r\nReflects my sheer exhaustion  but at least I doodled!  Want to do some other characters from the comic... but we\u2019ll see need to take it easy for a bit. ","username":"secoh2000","lower":"secoh2000","avatar_mtime":"1424255659"},"20011151":{"title":"Vampeaver","description":"Drew this back in early 2015 and forgot to post it.\r\n\r\nFinished draft.\r\n\r\n**Note: Please do not repost, copy or use without my permission** ","username":"Omadaun","lower":"omadaun","avatar_mtime":"1424255659"},"20010897":{"title":"Furlandia Offical Badges","description":"These are the official badges I did for Furlandia.\r\n\r\nFinished draft.\r\n\r\n**Note: Please do not repost, copy or use without my permission** ","username":"Omadaun","lower":"omadaun","avatar_mtime":"1424255659"},"20010892":{"title":"Commission: Eyy Yoo!","description":"Commission for :kylestudiosicon:","username":"SharpDressedReptile","lower":"sharpdressedreptile","avatar_mtime":"1424255659"},"20010675":{"title":"Omadaun Furlandia 2016 Conbadge","description":"Drew this conbadge for myself.\r\n\r\nFinished draft.\r\n\r\n**Note: Please do not repost, copy or use without my permission** ","username":"Omadaun","lower":"omadaun","avatar_mtime":"1424255659"},"20010638":{"title":"Polaris Furlandia 2016 Conbadge","description":"Drew this conbadge for Polaris.\r\n\r\nFinished draft.\r\n\r\n**Note: Please do not repost, copy or use without my permission** ","username":"Omadaun","lower":"omadaun","avatar_mtime":"1424255659"},"20010518":{"title":"The Force Awakens","description":"There's a rumbling in my tummy\r\n\r\n[19847750,15705182,-]\r\n\r\nFinished draft.\r\n\r\n**Note: Please do not repost, copy or use without my permission** ","username":"Omadaun","lower":"omadaun","avatar_mtime":"1424255659"},"20008413":{"title":"Cats and Yarn","description":"&quot;I'd ask 'What is it with cats and yarn' but, I'm a cat...I should know. Let me just mull that over while I play with this yarn.&quot;\r\n\r\nOh Strawberry, typical catty response haha. Re-upload after the outage. Gift art from a raffle by :iconAllenTress: Thank you :)","username":"Kejehara","lower":"kejehara","avatar_mtime":"1456381484"},"20005853":{"title":"Walking Paw in Paw","description":"Colored sketch commission for :iconpheowoof: and :iconafoxnamedarago:","username":"RemyWolf","lower":"remywolf","avatar_mtime":"1429259494"},"20005081":{"title":"\u2665Love the Beach\u2665","description":"B3\r\n\r\n\r\n\r\n\r\n\r\n\r\nPhoto by :draco751icon:","username":"RemyWolf","lower":"remywolf","avatar_mtime":"1429259494"},"20003643":{"title":"Bear wrestler ( re post )","description":"ready to fight ","username":"Merfiller","lower":"merfiller","avatar_mtime":"1457879598"},"20001860":{"title":"Help us name him! ","description":"He's a Stone Marten\/Stoat Mix\r\n\r\nEr... STONER Marten lmao\r\n\r\nHe's :rudikazootieicon: 's new mustelid character","username":"YuchiCoyote","lower":"yuchicoyote","avatar_mtime":"1454529799"}};
+
+            Queue.add(function(){
+                // Register the click handlers for easier checkbox usage
+                //
+                $$('center.flow > b').each(function(elm){
+                    elm.observe('click', function(evt){
+                        var elm = evt.element();
+                        console.log(elm);
+
+
+                        var elm_tagname = elm.tagName.toLowerCase();
+                        if(elm_tagname != 'img' && elm_tagname != 'a'){
+                            // process clicks only on non-image and non-link elements
+                            console.log('process click');
+                            var cell  = elm_tagname == 'b' ? elm : elm.up('b');
+                            var input = cell.down('input[type="checkbox"]');
+                            if(elm_tagname != 'input'){
+                                input.checked = !input.checked;
+                            }
+                            input.checked ? cell.addClassName('checked') : cell.removeClassName('checked');
+                        } else {
+                            console.log('skip click');
+                        }
+                    });
+
+                    // Initialize the checked messages
+                    //
+                    var input = elm.down('input[type="checkbox"]');
+                    input.checked ? elm.addClassName('checked') : elm.removeClassName('checked');
+                });
+
+
+                // Handle the 'invert selection' button
+                //
+                $$('#messagecenter-submissions div.actions .invert-selection').each(function(elm){
+                    elm.observe('click', function(evt){
+                        $$('center.flow > b input[type="checkbox"]').each(function(elm){
+                            elm.checked = !elm.checked;
+
+                            var cell = elm.up('b');
+                            elm.checked ? cell.addClassName('checked') : cell.removeClassName('checked');
+                        });
+                    });
+                    elm.removeClassName('hidden');
+                });
+
+                // Handle the 'check-uncheck' button
+                //
+                var flag_checked = false;
+                $$('#messagecenter-submissions div.actions .check-uncheck').each(function(elm){
+                    elm.observe('click', function(evt){
+                        $$('center.flow > b input[type="checkbox"]').each(function(elm){
+                            elm.checked = !flag_checked;
+
+                            var cell = elm.up('b');
+                            elm.checked ? cell.addClassName('checked') : cell.removeClassName('checked');
+                        });
+                        flag_checked = !flag_checked;
+                    });
+                    elm.removeClassName('hidden');
+                });
+
+                // Handle the 'remove-nuke' button
+                //
+                var flag_checked = false;
+                $$('#messagecenter-submissions div.actions .remove-nuke').each(function(elm){
+                    elm.observe('click', function(evt){
+                        var message = 'Do you really want to remove all of your messages?';
+                        if(!confirm(message))
+                            evt.stop();
+                    });
+                });
+
+                // Handle the 'Remove checked' button.
+                // Do not submit form with nothing checked.
+                //
+                $$('#messagecenter-submissions div.actions .remove-checked').each(function(elm){
+                    elm.observe('click', function(evt){
+                        if($$('center.flow > b input[type="checkbox"]').pluck('checked').indexOf(true) == -1){
+                            evt.stop();
+                        }
+                    });
+                });
+
+
+                // do stuff
+                $$('center.flow > b i.icon').each(function(elm){
+                    elm.observe('click', description_icon_click);
+                });
+                $('toggle-descriptions').observe('click', gallery_toggle_descriptions);
+            });
+        </script>
+</div>
+</div>
+<div class="footer">
+<div class="ads">
+<span id="ad-10" class="ad hidden"></span>
+<img class="falogo" src="/themes/classic/img/banners/fa_logo.png">
+<div class="ftr">
+<div id="ad-6" class="ad hidden spacer"></div>
+<div id="ad-8" class="ad hidden"></div>
+</div>
+</div>
+<br/>
+<p>
+<a href="/advertising">Advertising</a> |
+<a href="http://twitter.com/furaffinity">Twitter</a> |
+<a href="http://www.facebook.com/furaffinity"> Facebook</a> |
+<a href="/tos">Terms of Service</a> |
+<a href="/coc">Code of Conduct</a> |
+<a href="/aup">Acceptable Upload Policy</a>
+</p>
+Fur Affinity is &copy; 2005-2016 IMVU<br/><br/>
+<center>
+8546 <b><span title="Measured in the last 900 seconds">Users online</span></b> &mdash; 4201 <b>guests</b> and 4345 <b>registered</b>
+ 
+</center>
+Server Local Time: May 21st, 2016 05:47 AM <br/>
+Page generated in 0.009 seconds [ 40.9% PHP, 59.1% SQL ] (13 queries)</div>
+<script type="text/javascript">
+    var server_timestamp = 1463824028;
+    var client_timestamp = ((new Date()).getTime())/1000;
+    var server_timestamp_delta  = server_timestamp - client_timestamp;
+    var sfw_cookie_name = 'sfw';
+    var news_cookie_name = 'n';
+
+    LazyLoad.load('/themes/classic/js/prototype.js', function(){
+        LazyLoad.load('/themes/classic/js/script.js?u=2016051300', function(){
+            Queue.process();
+
+            init_dropdown_menu();
+            register_logout_onclick_handler();
+            init_news_block();
+            init_sfw_button();
+
+
+            //
+            // Load and init FA ads
+            //
+                // non-swf
+            var ad_zone_ids = [2,4,6,8,10];
+                var ad_zone_info_src = '//rv.furaffinity.net/www/delivery/spc.php?zones='+(ad_zone_ids.join('|'))+'&r='+((new Date()).getTime());
+            try {
+                if(window.location) {
+                    ad_zone_info_src += '&loc='+escape(window.location);
+                }
+                if(document.referrer) {
+                    ad_zone_info_src += '&referer='+escape(document.referrer);
+                }
+            } catch(e){
+                console && console.log && console.log('JS Error caught: %o', e);
+            }
+
+
+            LazyLoad.load(ad_zone_info_src, function(){
+                try {
+                    if(typeof(OA_output) == 'undefined') {
+                        return;
+                    }
+                    var tmp_output, ad_block;
+                    for(var i=0, cnt=ad_zone_ids.length; i<cnt; i++) {
+                        tmp_output = OA_output[ad_zone_ids[i]];
+                        if(typeof(tmp_output) != 'undefined') {
+                            // make URLs protocol relative
+                            tmp_output = tmp_output.replace(/https?:\/\/rv\./g, '//rv.');
+                            // remove impression tracking
+                            //tmp_output = tmp_output.replace(/<div\ id='beacon.+?<\/div>/g, '');
+
+                            ad_block = $('ad-'+ad_zone_ids[i]);
+                            if(ad_block) {
+                                ad_block.innerHTML = tmp_output;
+                                ad_block.removeClassName('hidden');
+                            }
+                        }
+                    }
+                } catch(e) {
+                    console && console.log && console.log('JS Error caught: %o', e);
+                }
+            });
+        });
+    });
+
+
+
+
+        //
+        // load and init additional ads
+        //
+        (function(w, d) {
+            // ad zone definition, general rating
+            w.ad_data = {
+                'top': {
+                    id  : 'ad-extra-flat',
+                    zone: '/6017/FA_GA',
+                    size: [[728, 90]]
+                },
+                'submission_flat': {
+                    id  : 'ad-extra-comments',
+                    zone: '/6017/FA_GA/Low_Value_GA_728_90',
+                    size: [[728, 90]]
+                },
+                'submission_square': {
+                    id  : 'ad-extra-submission-square',
+                    zone: '/6017/FA_GA/FA_GA_Web_300_250',
+                    size: [[300, 250]]
+                }
+            };
+
+        
+            // zone override for mature rating
+            w.ad_data['top'].zone               = '/6017/FA_MA';
+            w.ad_data['submission_flat'].zone   = '/6017/FA_MA';
+            w.ad_data['submission_square'].zone = '/6017/FA_GA/FA_GA_Web_300_250';
+        
+
+            // init ads
+            w.googletag = w.googletag || {cmd: []};
+
+            //
+            for(var zone_handle in w.ad_data) {
+                if(w.ad_data.hasOwnProperty(zone_handle)) {
+                    var data = w.ad_data[zone_handle];
+                    var elm  = d.getElementById(data.id);
+
+                    if(elm) {
+                        (function(data){
+                            // this will be executed after google ad code loads
+                            w.googletag.cmd.push(function(){
+                                try {
+                                    //
+                                    w.googletag.defineSlot(data.zone, data.size, data.id).setCollapseEmptyDiv(true).addService(w.googletag.pubads());
+                                    // consolidate all slot calls into a single request
+                                    w.googletag.pubads().enableSingleRequest();
+                                    // enable services for defined ad slots
+                                    w.googletag.enableServices();
+                                    //
+                                    w.googletag.display(data.id);
+                                } catch(e) {
+                                    console && console.log && console.log('JS Error caught: %o', e);
+                                }
+                            });
+                        })(data);
+                    }
+                }
+            }
+
+            // load google ad code
+            LazyLoad.load('//www.googletagservices.com/tag/js/gpt.js', function() {
+                if(typeof(googletag._vars_) === 'undefined') {
+                    // google ad code has been blocked
+                    // hide all add containers
+                    for(var zone_handle in w.ad_data) {
+                        if(w.ad_data.hasOwnProperty(zone_handle)) {
+                            var elm = d.getElementById(w.ad_data[zone_handle].id);
+
+                            if(elm) {
+                                elm.className = elm.className + ' hidden';
+                            }
+                        }
+                    }
+                }
+            });
+        })(window, document);
+</script>
+ 
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60038462-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+ 
+ 
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-8fZNjMQsH1Ews"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-8fZNjMQsH1Ews.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+ 
+</body>
+</html>
