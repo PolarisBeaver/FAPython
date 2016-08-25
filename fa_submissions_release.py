@@ -90,7 +90,7 @@ def statusCheck():
 
   r = requests.head(site, headers=headerData)
   status = str(r.status_code)
-  #status = str(500)
+  #status = str(301)
   #fake site status
 
 def statusHandler():
@@ -113,7 +113,13 @@ def statusPrinter():
                   "501" : "501 - Not Implemented",
                   "503" : "503 - Service Unavailable",
                   "504" : "504 - Gateway Timeout",
+                  "520" : "520 - Unknown Error (CloudFlare)",
+                  "521" : "521 - Web Server Is Down (CloudFlare)",
+                  "522" : "522 - Connection Timed Out (CloudFlare)",
+                  "523" : "523 - Origin Is Unreachable (CloudFlare)",
                   "524" : "524 - A Timeout Occurred (CloudFlare)",
+                  "525" : "525 - SSL Handshake Failed (CloudFlare)",
+                  "526" : "526 - Invalid SSL Certificate (CloudFlare)",
                   "598" : "598 - Network Read Timeout"
                 }
   
@@ -302,7 +308,7 @@ def halt(reasonInput = None, errorCode = "None"):
       print "the site is being redirected to an invalid page"
     elif errorCode == "404":
       print "the page does not exist (OMG FURAFFINITY GOT DELETED?!)"
-    elif errorCode in {"500", "501", "503", "504", "524", "598"}:
+    elif errorCode in {"500", "501", "503", "504", "520", "521", "522", "523", "524", "525", "526", "598"}:
       print "the server is having problems"
     else:
       print "FA is malfunctioning"
