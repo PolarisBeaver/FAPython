@@ -1,9 +1,6 @@
 import requests
-import webbrowser
-import ctypes
 import os
 import getpass
-import urllib, urllib2, cookielib
 import shutil
 from requests import session
 from bs4 import BeautifulSoup
