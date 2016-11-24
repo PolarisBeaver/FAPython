@@ -7,20 +7,9 @@ Required Python 2.7 libraries:
 
 requests
 
-
-webbrowser
-
-ctypes
-
 os
 
 getpass
-
-urllib
-
-urllib2
-
-cookielib
 
 shutil
 
